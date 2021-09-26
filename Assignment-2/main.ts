@@ -20,8 +20,8 @@ import {
   midExam.addItem(strategy);
   midExam.addItem(oobserver);
   console.log('\n');
-  console.log(midExam.singleClick());
-  console.log(midExam.doubleClick());
+  console.log(midExam.singleClick() + '\n');
+  console.log(midExam.doubleClick() + '\n');
   
   midExam.addItem(midSyllabus);
   finalExam.addItem(coomposite);
@@ -34,11 +34,11 @@ import {
   dp.addItem(readMe);
   dp.addItem(assignmets);
 
-  console.log(dp.singleClick());
-  console.log(dp.doubleClick());
+  console.log(dp.singleClick() + '\n');
+  console.log(dp.doubleClick() + '\n');
 
   dp.remove(readMe);
 
-  console.log(dp.doubleClick());
+  console.log(dp.doubleClick() + '\n');
   
   console.log('\n');
